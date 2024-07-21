@@ -1,4 +1,4 @@
-export async function getPokemons() {
+export async function getPokemons(limit: Number) {
     const headers = new Headers({ 
       "Content-Type": "application/json"
     });
@@ -10,7 +10,7 @@ export async function getPokemons() {
     };
   
     try {
-      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=1", requestOptions);
+      const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}`, requestOptions);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

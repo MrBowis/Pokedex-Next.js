@@ -32,3 +32,4 @@ To learn more about Next.js, take a look at the following resources:
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling. You can learn more about Tailwind CSS in the [Tailwind CSS Documentation](https://tailwindcss.com/docs).
 
 In this project the style of `index.tsx` is defined in `styles/Home.module.css`. And is called in `index.tsx` with `import styles from '../styles/Home.module.css'`.
+"# Pokedex-NextJS" 
